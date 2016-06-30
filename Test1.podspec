@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'Test1'
   s.version = '0.1.0'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.summary = 'A short description of Test1.'
+  s.summary = 'ymTest1.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/Test1'
+  s.homepage         = 'https://github.com/PodCreateExample/Test1'
   s.authors = { 'Test1_OWNER' => 'USER_EMAIL' }
-  s.source = { :git => 'https://github.com/GITHUB_USERNAME/Test1.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/PodCreateExample/Test1.git', :tag => s.version }
   s.ios.deployment_target = '8.0'
   s.source_files = 'Source/*.swift'
   s.resource_bundles = {
