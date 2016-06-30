@@ -1,0 +1,27 @@
+{
+  "name": "Test1",
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "A short description of Test1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Test1",
+  "authors": {
+    "Test1_OWNER": "USER_EMAIL"
+  },
+  "source": {
+    "git": "https://github.com/GITHUB_USERNAME/Test1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Source/*.swift",
+  "resource_bundles": {
+    "Test1": [
+      "Resources/**/*.{png}"
+    ]
+  }
+}
